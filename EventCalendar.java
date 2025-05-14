@@ -30,7 +30,7 @@ public class EventCalendar {
         System.out.println("\nAll Upcoming Events:");
         listAllEvents(calendar);
 
-        removeEvent(calendar, "2025-05-20", 0); // remove first event on that date
+        removeEvent(calendar, "2025-05-20", 0); 
 
         System.out.println("\nAfter Removing One Event:");
         listAllEvents(calendar);
